@@ -30,4 +30,4 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 Contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+<!-- ## Security Vulnerabilities -->

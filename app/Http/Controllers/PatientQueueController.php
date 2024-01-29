@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\PatientQueue;
 use App\Http\Requests\StorePatientQueueRequest;
 use App\Http\Requests\UpdatePatientQueueRequest;
 
@@ -13,9 +12,8 @@ class PatientQueueController extends Controller
      */
     public function index()
     {
-        $posts = PatientQueue::all(); // $posts, not $post, because we are retrieving more than one
 
-        return view('your_index_post_view', compact('posts'));
+        return view('patientsqueue');
     }
 
     /**

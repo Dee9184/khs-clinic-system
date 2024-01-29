@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/doctortreatment">Doctor Treatment</a></li>
-                    <li><a href="#team">Queues Overview</a></li>
+                    <li><a href="/patientsqueue">Patients Queue</a></li>
                     <li><a href="#about">Medicines Dispensary</a></li>
                     <li><a href="#contact">Patients Registration</a></li>
                     <!-- <li class="dropdown">

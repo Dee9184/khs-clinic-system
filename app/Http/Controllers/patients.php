@@ -38,6 +38,7 @@ class patients extends Controller
         $new_user->email = $request['email'];
         $new_user->detail = $request['description'];
         $new_user->save();
+        
         return view('index');
     }
 
