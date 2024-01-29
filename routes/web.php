@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\patients;
 use App\Http\Controllers\treatment;
-use App\Http\Controllers\patientsQueue;
+use App\Http\Controllers\PatientQueueController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,5 +28,5 @@ Route::get('/getappointment', [patients::class, 'store']);
 Route::get('/addpatient', [patients::class, 'store']);
 Route::get('/doctortreatment', [treatment::class,'showForm'])->name('show.form');
 Route::post('/doctortreatment', [treatment::class,'submitForm'])->name('submit.doctortreatment');
-Route::get('/patientsqueue', [patientsQueue::class,'index']);
+Route::get('/patientsqueue', [PatientQueueController::class,'index']);
 
